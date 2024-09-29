@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.center{
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color : rgb(196, 220, 75);
+}
+
+.imgdiv{
+    height:220px;
+    width:180px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.imgdiv img{
+    transform: translateY(100%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
